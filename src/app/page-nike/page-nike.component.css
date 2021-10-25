@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+tr td{
+    color: rgb(48, 48, 48);
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.title h2{
+    position: absolute;
+    margin-left: 44%;
+    margin-top:450px;
+    color: black;   
+    font-weight: bold;
+    font-size:22pt;
+}
+
+
+.breadcrumb #nike-title{
+    position: absolute;
+    left: 140px;
+    top: 1px;
+}
+
+#navigate-icon{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 130px;
+}
+
+#navigate-icon2{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 46px;
+}
+
+#home-icon{
+    color: #848484;
+    position: absolute;
+    left:17px ;
+    top: 7px;
+}
+
+#home-icon:hover{
+    color: #3a3a3a;
+}
+
+.breadcrumb{
+    position: absolute;
+    top: 90px;
+    left: auto ;
+    border: 1px solid #b6b6b6;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.breadcrumb h2{
+    font-size: 14px;
+    text-transform:none;
+    text-decoration: none;
+    color:#3a3a3a;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+.breadcrumb a h2:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.bg-nike img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    top:154px;
+    margin-left: 0;
+}
+
+.linha1 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 490px;
+}
+
+.linha2 img{
+    width:220px;
+    margin-left:130px;
+    margin-top: 130px;
+}
+
+.linha3 img{
+    width:220px;
+    margin-left:130px;
+    margin-top: 130px;
+}
+
+.linha4 img{
+    width:220px;
+    margin-left:130px;
+    margin-top: 70px;
+}
+
+.produto-1{
+    position: absolute;
+    top:1220px;
+    left: 160px;
+}
+
+.produto-1 .price{
+    position: absolute;
+    top:55px;
+    left:60px;
+}
+
+.produto-2{
+    position: absolute;
+    top:1220px;
+    left: 550px;
+}
+
+.produto-2 .price{
+    position: absolute;
+    top:58px;
+    left:60px;
+}
+
+.produto-3{
+    position: absolute;
+    top:1220px;
+    left:940px;
+}
+
+.produto-3 .price{
+    position: absolute;
+    top:58px;
+    left:60px;
+}
+
+.produto-4 {
+    position: absolute;
+    top:1575px;
+    left:160px;
+}
+
+.produto-4 .price{
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+.produto-5{
+    position: absolute;
+    top:1575px;
+    left:530px;
+}
+
+.produto-5 .price{
+    position: absolute;
+    top:50px;
+    left:60px;
+}
+
+.produto-6{
+    position: absolute;
+    top:1575px;
+    left:940px;
+}
+
+.produto-6 .price{
+    position: absolute;
+    top:52px;
+    left:60px;
+}
+
+.produto-7{
+    position: absolute;
+    top: 1950px;
+    left:130px;
+}
+
+.produto-7 .price{
+    position: absolute;
+    top:30px;
+    left:60px;
+}
+
+.produto-8{
+    position: absolute;
+    top:1960px;
+    left:500px;
+}
+
+.produto-8 .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.produto-9{
+    position: absolute;
+    top:1960px;
+    left:920px;
+}
+
+.produto-9 .price{
+    position: absolute;
+    top:50px;
+    left:60px;
+}
+
+.produto-10{
+    position: absolute;
+    top:2240px;
+    left:170px;
+}
+
+.produto-10 .price{
+    position: absolute;
+    top:30px;
+    left:60px;
+}

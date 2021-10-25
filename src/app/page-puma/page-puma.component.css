@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+    scrollbar-width: 1px;
+    
+}
+
+tr td{
+    color: rgb(48, 48, 48);
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.title h2{
+    position: absolute;
+    margin-left: 43%;
+    margin-top:360px;
+    color: black;
+    font-weight: bold;
+    font-size:22pt;
+}
+
+.breadcrumb #puma-title{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+
+#navigate-icon{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 130px;
+}
+
+#navigate-icon2{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 49px;
+}
+
+#home-icon{
+    color: #848484;
+    position: absolute;
+    left:17px ;
+    top: 7px;
+}
+
+#home-icon:hover{
+    color: #3a3a3a;
+}
+
+.breadcrumb{
+    position: absolute;
+    top: 90px;
+    left: auto ;
+    border: 1px solid #b6b6b6;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.breadcrumb h2{
+    font-size: 14px;
+    text-transform:none;
+    text-decoration: none;
+    color:#3a3a3a;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+.breadcrumb a h2:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.bg-puma img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 720px;
+    top:150px;
+    margin-left: 0;
+}
+
+.linha1 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 410px;
+}
+
+.linha2 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 90px;
+}
+
+.linha3 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 90px;
+}
+
+.linha4 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 40px;
+}
+
+.puma-rs{
+    position: absolute;
+    top:1156px;
+    left: 200px;
+}
+
+.puma-rs .price{
+    position: absolute;
+    top:30px;
+    left:50px;
+}
+
+.puma-millenium{
+    position: absolute;
+    top:1156px;
+    left:560px;
+}
+
+.puma-millenium .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.puma-disc{
+    position: absolute;
+    top:1156px;
+    left:960px;
+}
+
+.puma-disc .price{
+    position: absolute;
+    top:30px;
+    left:70px;
+}
+
+.puma-suede {
+    position: absolute;
+    top:1445px;
+    left:950px;
+}
+
+.puma-suede .price{
+    position: absolute;
+    top:30px;
+    left:70px;
+}
+
+.puma-wild{
+    position: absolute;
+    top:1445px;
+    left:550px;
+}
+
+.puma-wild .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.puma-court{
+    position: absolute;
+    top:1445px;
+    left:210px;
+}
+
+.puma-court .price{
+    position: absolute;
+    top:30px;
+    left:40px;
+}
+
+.puma-trailfox{
+    position: absolute;
+    top:1780px;
+    left:150px;
+}
+
+.puma-trailfox .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.puma-xj{
+    position: absolute;
+    top:1780px;
+    left:530px;
+}
+
+.puma-xj .price{
+    position: absolute;
+    top:30px;
+    left:110px;
+}
+
+.puma-gl{
+    position: absolute;
+    top:1780px;
+    left:940px;
+}
+
+.puma-gl .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.puma-hard{
+    position: absolute;
+    top: 2040px;
+    left:170px;
+}
+
+.puma-hard .price{
+    position: absolute;
+    top:30px;
+    left:70px;
+}

@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+tr td{
+    color: rgb(48, 48, 48);
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.title h2{
+    position: absolute;
+    margin-left: 43%;
+    margin-top:240px;
+    color: black;
+    font-weight: bold;
+    font-size:22pt;
+}
+
+.breadcrumb #fila-title{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+
+#navigate-icon{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 130px;
+}
+
+#navigate-icon2{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 49px;
+}
+
+#home-icon{
+    color: #848484;
+    position: absolute;
+    left:17px ;
+    top: 7px;
+}
+
+#home-icon:hover{
+    color: #3a3a3a;
+}
+
+.breadcrumb{
+    position: absolute;
+    top: 90px;
+    left: auto ;
+    border: 1px solid #b6b6b6;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.breadcrumb h2{
+    font-size: 14px;
+    text-transform:none;
+    text-decoration: none;
+    color:#3a3a3a;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+.breadcrumb a h2:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+
+.bg-fila img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top:155px;
+    margin-left: 0;
+}
+
+.linha1 img{
+    width:200px;
+    margin-left:200px;
+    margin-top: 330px;
+}
+
+.linha2 img{
+    width:200px;
+    margin-left:200px;
+    margin-top:90px;
+}
+
+.linha3 img{
+    width:200px;
+    margin-left:200px;
+    margin-top: 130px;
+}
+
+.linha4 img{
+    width:200px;
+    margin-left:200px;
+    margin-top: 120px;
+}
+
+.fila-oakmont{
+    position: absolute;
+    top:1090px;
+    left: 194px;
+}
+
+.fila-oakmont .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.fila-float{
+    position: absolute;
+    top:1090px;
+    left: 590px;
+}
+
+.fila-float .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.fila-mb{
+    position: absolute;
+    top:1090px;
+    left:1010px;
+}
+
+.fila-mb .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.fila-teratach {
+    position: absolute;
+    top:1390px;
+    left:180px;
+}
+
+.fila-teratach .price{
+    position: absolute;
+    top:30px;
+    left:100px;
+}
+
+.teratach-600{
+    position: absolute;
+    top:1390px;
+    left:590px;
+}
+
+.teratach-600 .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.fila-disruptor{
+    position: absolute;
+    top:1390px;
+    left:1000px;
+}
+
+.fila-disruptor .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.fila-recovery{
+    position: absolute;
+    top:1720px;
+    left:200px;
+}
+
+.fila-recovery .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.fila-iconic{
+    position: absolute;
+    top:1720px;
+    left:605px;
+}
+
+.fila-iconic .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.fila-fit{
+    position: absolute;
+    top:1720px;
+    left:1000px;
+}
+
+.fila-fit .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.fila-rippier{
+    position: absolute;
+    top:1990px;
+    left:220px;
+}
+
+.fila-rippier .price{
+    position: absolute;
+    top:30px;
+    left:50px;
+}

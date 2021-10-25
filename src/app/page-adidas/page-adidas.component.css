@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    text-transform: uppercase;
+}
+
+tr td{
+    color: rgb(48, 48, 48);
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.title h2{
+    position: absolute;
+    margin-left: 44%;
+    margin-top:250px;
+    color: black;
+    font-weight: bold;
+    font-size:22pt;
+}
+
+.breadcrumb #adidas-title{
+    position: absolute;
+    left: 140px;
+    top: 1px;
+}
+
+#navigate-icon{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 130px;
+}
+
+#navigate-icon2{
+    color: #848484;
+    font-weight: 400;
+    position: absolute;
+    top: 7px;
+    left: 49px;
+}
+
+#home-icon{
+    color: #848484;
+    position: absolute;
+    left:17px ;
+    top: 7px;
+}
+
+#home-icon:hover{
+    color: #3a3a3a;
+}
+
+.breadcrumb{
+    position: absolute;
+    top: 90px;
+    left: auto;
+    border: 1px solid #b6b6b6;
+    width: 600px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+.breadcrumb ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.breadcrumb h2{
+    font-size: 14px;
+    text-transform:none;
+    text-decoration: none;
+    color:#3a3a3a;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+}
+
+.breadcrumb a h2:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.bg-adidas img{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top:155px;
+    margin-left: 0;
+}
+
+
+.linha1 img{
+    width:220px;
+    margin-left:160px;
+    margin-top: 280px;
+}
+
+.linha2 img{
+    width:220px;
+    margin-left:135px;
+    margin-top: 95px;
+}
+
+.linha3 img{
+    width:220px;
+    margin-left:130px;
+    margin-top: 95px;
+}
+
+.linha4 img{
+    width:220px;
+    margin-left:130px;
+    margin-top: 40px;
+}
+
+.adidas-zx{
+    position: absolute;
+    top:1030px;
+    left: 150px;
+}
+
+.adidas-zx .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.adidas-4D{
+    position: absolute;
+    top:1020px;
+    left:540px;
+}
+
+.adidas-4D .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.adidas-nmd{
+    position: absolute;
+    top:1020px;
+    left:920px;
+}
+
+.adidas-nmd .price{
+    position: absolute;
+    top:30px;
+    left:100px;
+}
+
+.aidas-ozweego {
+    position: absolute;
+    top:1325px;
+    left:880px;
+}
+
+.aidas-ozweego .price{
+    position: absolute;
+    top:30px;
+    left:117px;
+}
+
+.adidas-hu{
+    position: absolute;
+    top:1325px;
+    left:500px;
+}
+
+.adidas-hu .price{
+    position: absolute;
+    top:30px;
+    left:100px;
+}
+
+.adidas-futurecraft{
+    position: absolute;
+    top:1325px;
+    left:100px;
+}
+
+.adidas-futurecraft .price{
+    position: absolute;
+    top:30px;
+    left:110px;
+}
+
+.adidas-marathon{
+    position: absolute;
+    top:1663px;
+    left:130px;
+}
+
+.adidas-marathon .price{
+    position: absolute;
+    top:30px;
+    left:80px;
+}
+
+.adidas-lxcon{
+    position: absolute;
+    top:1663px;
+    left:520px;
+}
+
+.adidas-lxcon .price{
+    position: absolute;
+    top:30px;
+    left:90px;
+}
+
+.adidas-qasa{
+    position: absolute;
+    top:1663px;
+    left:930px;
+}
+
+.adidas-qasa .price{
+    position: absolute;
+    top:30px;
+    left:60px;
+}
+
+.stan-smith{
+    position: absolute;
+    top:1930px;
+    left:150px;
+}
+
+.stan-smith .price{
+    position: absolute;
+    top:30px;
+    left:60px;
+}

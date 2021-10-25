@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.mat-drawer-container{
+    background-color: white;
+}
+
+mat-sidenav-container mat-sidenav-content{
+    overflow: hidden !important;
+}
+
+.toolbar{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    margin:auto;
+    background-color: rgb(4, 4, 4);
+}
+
+#toolbar-color {
+    background-color: rgb(4, 4, 4);
+}
+
+.toolbar h1{
+    color:rgb(240, 240, 240);
+}
+
+.sidenav{
+    background-color: rgb(7, 7, 7);
+    position:fixed;
+    top: 40px;
+}
+
+
+.sidenav::before{
+    animation-delay: 0s;
+    content: "";
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.sidenav a{
+    color:rgb(163, 163, 163);
+    font-size: 14px;
+    top:20px;
+    line-height: 2px;
+}
+
+.sidenav a:hover{
+    color: white;
+}
+
+#menu-icon{
+    color:rgb(199, 199, 199);
+
+}
+
+mat-icon:hover{
+    color: white;
+}
+
+.campo-pesquisa{
+    position: fixed;
+    left: 540px;
+    top: 12px;
+    box-shadow: none;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+#txtBusca{
+    float: left;
+    padding-left: 30px;
+    width: 210px;
+    height: 37px;
+    border: none;
+    font-size: 12px;
+    border-radius: 3px;
+    display: block;
+    background-color: #FFFFFF;
+}
+
+#search{
+    position: absolute;
+    left:3px;
+    top: 6px;
+    color: rgb(102, 102, 102);
+}
+
+.fazer-login{
+    position: absolute;
+    left: 970px;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 9pt;
+}
+
+.carrinho{
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    left: 1220px;
+    top: 15px;
+    color: #FFFFFF;
+    font-size: 10pt;
+}
+
+#car-icon{
+    position: absolute;
+    top:20px;
+    left: 1195px;
+}
+
+.toolbar #hype-title{
+    font-size: 17px;
+}
+
+.toolbar a{
+    text-decoration: none;
+}
+
+#marcas-title{
+    color: white;
+    cursor:text;
+    font-size: 13pt;
+    font-weight: 400;
+    top: 20px;
+}
+
+/*https://c4.wallpaperflare.com/wallpaper/379/105/136/black-and-white-sneakers-black-and-white-converse-all-star-low-top-sneakers-wallpaper-preview.jpg*/
+
+footer{
+    background: url(https://cdn.shopify.com/s/files/1/0037/2244/4845/products/airforcecr_900x.png?v=1593453078);
+    padding: 0px 0;
+    text-align: center;
+    color:rgb(240, 240, 240);
+}
+
+footer img{
+    width: 30px;
+    margin: 20px 0 0;
+    margin-left: 10px;
+}
+
+.copyright{
+    font-size: 13px;
+}
+
